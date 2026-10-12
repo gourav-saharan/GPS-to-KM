@@ -5,7 +5,7 @@ A single-page Python application that processes GPS Travel History Excel files
 exported from vehicle tracking systems, and generates per-vehicle, per-day
 KM summary reports with persistent odometer logbook management.
 
-Author: GPS to KM Tool
+Author: Gourav Saharan
 Version: 2.0 (Logbook Edition)
 """
 
