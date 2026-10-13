@@ -21,7 +21,6 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-# Try to import tkinterdnd2 for drag-and-drop support
 DND_AVAILABLE = False
 try:
     from tkinterdnd2 import TkinterDnD, DND_FILES
