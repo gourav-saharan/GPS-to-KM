@@ -29,9 +29,7 @@ except ImportError:
     pass
 
 
-# =============================================================================
-# ODOMETER LOGBOOK PERSISTENCE MANAGER
-# =============================================================================
+
 
 class OdometerManager:
     """Manages persistent vehicle odometer readings stored in JSON."""
