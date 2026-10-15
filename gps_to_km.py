@@ -105,7 +105,6 @@ class OdometerManager:
 class TravelDataProcessor:
     """Processes GPS Travel History Excel files and computes per-day summaries."""
 
-    # Expected header keywords at row 5 to validate file format
     EXPECTED_HEADERS = ['Vehicle', 'Status', 'Start Time', 'End Time', 'Distance']
     HEADER_ROW = 5
     DATA_START_ROW = 6
