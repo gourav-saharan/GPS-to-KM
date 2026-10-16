@@ -97,11 +97,6 @@ class OdometerManager:
         """Get all vehicle records."""
         return dict(self.data)
 
-
-# =============================================================================
-# DATA PROCESSING ENGINE
-# =============================================================================
-
 class TravelDataProcessor:
     """Processes GPS Travel History Excel files and computes per-day summaries."""
 
