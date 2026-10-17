@@ -109,7 +109,7 @@ class TravelDataProcessor:
     def __init__(self, filepath, progress_callback=None):
         self.filepath = filepath
         self.progress_callback = progress_callback
-        self.vehicles = OrderedDict()  # {vehicle_name: [rows]}
+        self.vehicles = OrderedDict()  
         self.errors = []
         self.total_rows = 0
 
