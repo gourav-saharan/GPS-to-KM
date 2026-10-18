@@ -404,9 +404,7 @@ class TravelDataProcessor:
         return summary
 
 
-# =============================================================================
-# EXCEL OUTPUT WRITER
-# =============================================================================
+ 
 
 class ReportWriter:
     """Writes per-vehicle daily summaries to a formatted Excel workbook."""
