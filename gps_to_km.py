@@ -497,8 +497,7 @@ class ReportWriter:
         title_cell.font = title_font
         title_cell.alignment = title_alignment
         ws.row_dimensions[1].height = 35
-
-        # Summary info row
+ 
         if summaries:
             date_range = f"Period: {summaries[0]['date']} to {summaries[-1]['date']}  |  Days: {len(summaries)}"
             ws.merge_cells(start_row=2, start_column=1, end_row=2, end_column=num_cols)
@@ -507,7 +506,7 @@ class ReportWriter:
             info_cell.alignment = Alignment(horizontal='left', vertical='center')
             ws.row_dimensions[2].height = 22
 
-        # Header Row (row 4)
+        
         header_row = 4
         ws.row_dimensions[header_row].height = 30
         for col_idx, (key, name, width) in enumerate(columns, 1):
@@ -517,8 +516,7 @@ class ReportWriter:
             cell.alignment = header_alignment
             cell.border = thin_border
             ws.column_dimensions[get_column_letter(col_idx)].width = width
-
-        # Data Rows
+ 
         data_start_row = header_row + 1
         total_km_sum = 0.0
 
